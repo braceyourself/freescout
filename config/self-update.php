@@ -38,9 +38,9 @@ return [
     'repository_types' => [
         'github' => [
             'type'              => 'github',
-            'repository_vendor' => 'freescout-helpdesk', //env('SELF_UPDATER_REPO_VENDOR', ''),
-            'repository_name'   => 'freescout', //env('SELF_UPDATER_REPO_NAME', ''),
-            'repository_url'    => '',
+            'repository_vendor' => 'FamilyReseachCouncil', //env('SELF_UPDATER_REPO_VENDOR', ''),
+            'repository_name'   => 'helpdesk', //env('SELF_UPDATER_REPO_NAME', ''),
+            'repository_url'    => 'https://github.com/FamilyResearchCouncil/helpdesk',
             'download_path'     => storage_path().DIRECTORY_SEPARATOR.'app'.DIRECTORY_SEPARATOR.'updater', //env('SELF_UPDATER_DOWNLOAD_PATH', sys_get_temp_dir()),
         ],
     ],
